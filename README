@@ -1,0 +1,4 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=952
+
+This sets up highlighting for *.psql files, which contain PostgreSQL SQL.
+You may also need to make an entry for *.psql in your filetype.vim .
