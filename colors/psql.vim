@@ -3,8 +3,8 @@
 " Maintainer:	Devdas Bhagat <devdas@dvb.homelinux.org>
 " Derived from the syntax file for plsql maintained by 
 " Paul Moore <gustav@morpheus.demon.co.uk>
-" Last Change:	2004 April 06
-" Version: 0.03
+" Last Change:	2004 April 17
+" Version: 0.04
 
 " For version 5.x: Clear all syntax items
 " For version 6.x: Quit when a syntax file was already loaded
@@ -28,11 +28,12 @@ syn keyword psqlKeyword	index initial into is level loop maxextents mode modify
 syn keyword psqlKeyword	nocompress nowait of offline on online start
 syn keyword psqlKeyword	successful synonym table then to trigger uid
 syn keyword psqlKeyword	unique user validate values view whenever
-syn keyword psqlKeyword	where with option order privileges 
+syn keyword psqlKeyword	where with option order privileges procedural
 syn keyword psqlKeyword	public resource return row rowlabel rownum rows
 syn keyword psqlKeyword	session share size type using close open
 syn keyword psqlKeyword	declare constraint join temporary sequence
 syn keyword psqlKeyword	inner outer cross natural full left right
+syn keyword psqlKeyword	language handler trusted untrusted validator
 
 syn keyword psqlOperator	not and or primary key
 syn keyword psqlOperator	in any some all between exists
